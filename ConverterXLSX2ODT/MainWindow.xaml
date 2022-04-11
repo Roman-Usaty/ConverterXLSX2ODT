@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Открыть файл XLSX" HorizontalAlignment="Left" Margin="55,25,0,0" VerticalAlignment="Top" Click="OpenDocument_Click"/>
+        <Button Content="Конвертировать" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="192,25,0,0" Click="Convert_Click"/>
 
     </Grid>
 </Window>
